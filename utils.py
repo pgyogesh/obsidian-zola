@@ -279,7 +279,7 @@ class Settings:
         "SLUGIFY": "y",
         "HOME_GRAPH": "y",
         "PAGE_GRAPH": "y",
-        "SUBSECTION_SYMBOL": "➤",
+        "SUBSECTION_SYMBOL": "➤ ",
         "LOCAL_GRAPH": "",
         "GRAPH_LINK_REPLACE": "",
         "STRICT_LINE_BREAKS": "y",
