@@ -19,8 +19,8 @@ fi
 
 # Removing excluded folders
 
-echo "Removing folders"
-rm -rf $EXCLUDE_FOLDERS
+echo "Removing folders $EXCLUDE_FOLDERS"
+echo $EXCLUDE_FOLDERS |xargs rm -rf
 
 # Run conversion script
 python __site/convert.py
