@@ -19,6 +19,7 @@ fi
 
 # Removing excluded folders
 
+echo "Removing folders"
 rm -rf $EXCLUDE_FOLDERS
 
 # Run conversion script
