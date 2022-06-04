@@ -17,11 +17,6 @@ else
 	__site/bin/obsidian-export --frontmatter=never --no-recursive-embeds __obsidian __site/build/__docs
 fi
 
-# Removing excluded folders
-
-echo "Removing folders $EXCLUDE_FOLDERS"
-echo $EXCLUDE_FOLDERS |xargs rm -rf
-
 # Run conversion script
 python __site/convert.py
 
